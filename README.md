@@ -87,7 +87,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 ## Equipe
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+Membros do curso de Desenvolvimento de Software Multiplataforma presentes no projeto.
 
 | Função | Nome | LinkedIn | GitHub |
 | :----------: | :----------------------- | :-------------------------------------------------------------------: | :--------------------------------------------: |
