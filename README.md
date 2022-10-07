@@ -44,13 +44,13 @@ A entrega das documentações foram feitas de forma contínua seguinto as aulas 
 
 | Documentação | Tag | Lançamento | Status | 
 |:-----:|:-------------:|:----------:|:---------:|
-| Plano Estratégico do Projeto - Sumário Executivo | 01 | 12/09/2022 | Entregue | 
-| Plano Estratégico do Projeto - Metas do Projeto | 02 | 12/09/2022 | Entregue |
-| Plano Estratégico do Projeto - Riscos | 03 | 12/09/2022 | Entregue |
-| Plano Estratégico do Projeto - Questões em Aberto | 04 | 12/09/2022 | Entregue |
-| Plano Estratégico do Projeto - Análise SWOT | 05 | 19/09/2022 | Entregue |
-| Plano Estratégico do Projeto - Stakeholders | 06 | 19/09/2022 | Entregue |
-| Plano Estratégico do Projeto - Plano de Comunicação | 07 | 19/09/2022 | Entregue |
+| [Plano Estratégico do Projeto - Sumário Executivo](https://github.com/backtoaldo/sejaheroi/blob/main/Plano%20Estrat%C3%A9gico%20do%20Projeto/Plano%20Estrat%C3%A9gico%20do%20Projeto%20-%20Sum%C3%A1rio%20Executivo.pdf) | 01 | 12/09/2022 | Entregue | 
+| [Plano Estratégico do Projeto - Metas do Projeto](https://github.com/backtoaldo/sejaheroi/blob/main/Plano%20Estrat%C3%A9gico%20do%20Projeto/Plano%20Estrat%C3%A9gico%20do%20Projeto%20-%20Metas%20do%20Projeto.pdf) | 02 | 12/09/2022 | Entregue |
+| [Plano Estratégico do Projeto - Riscos](https://github.com/backtoaldo/sejaheroi/blob/main/Plano%20Estrat%C3%A9gico%20do%20Projeto/Plano%20Estrat%C3%A9gico%20do%20Projeto%20-%20Riscos.pdf) | 03 | 12/09/2022 | Entregue |
+| [Plano Estratégico do Projeto - Questões em Aberto](https://github.com/backtoaldo/sejaheroi/blob/main/Plano%20Estrat%C3%A9gico%20do%20Projeto/Plano%20Estrat%C3%A9gico%20do%20Projeto%20-%20Quest%C3%B5es%20em%20Aberto.pdf) | 04 | 12/09/2022 | Entregue |
+| [Plano Estratégico do Projeto - Análise SWOT](https://github.com/backtoaldo/sejaheroi/blob/main/Plano%20Estrat%C3%A9gico%20do%20Projeto/Plano%20Estrat%C3%A9gico%20do%20Projeto%20-%20An%C3%A1lise%20SWOT.pdf) | 05 | 19/09/2022 | Entregue |
+| [Plano Estratégico do Projeto - Stakeholders](https://github.com/backtoaldo/sejaheroi/blob/main/Plano%20Estrat%C3%A9gico%20do%20Projeto/Plano%20Estrat%C3%A9gico%20do%20Projeto%20-%20Stakeholders.pdf) | 06 | 19/09/2022 | Entregue |
+| [Plano Estratégico do Projeto - Plano de Comunicação](https://github.com/backtoaldo/sejaheroi/blob/main/Plano%20Estrat%C3%A9gico%20do%20Projeto/Plano%20Estrat%C3%A9gico%20do%20Projeto%20-%20Plano%20de%20Comunica%C3%A7%C3%A3o.docx.pdf) | 07 | 19/09/2022 | Entregue |
 
 
 <span id="designeprototipo">
