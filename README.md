@@ -92,8 +92,8 @@ Membros do curso de Desenvolvimento de Software Multiplataforma presentes no pro
 | Função | Nome | LinkedIn | GitHub |
 | :----------: | :----------------------- | :-------------------------------------------------------------------: | :--------------------------------------------: |
 | Team | Aldo Costa Silveira | [LinkedIn](https://www.linkedin.com/in/aldo-costa-silveira/) | [GitHub](https://github.com/backtoaldo) |
-| Team | Andrey Caniello | [LinkedIn]() | [GitHub](https://github.com/ACaniello) |
-| Team | Douglas | [LinkedIn](https://www.linkedin.com/in/douglasdans/) | [GitHub](https://github.com/DouglasDans) |
+| Team | Andrey N. Caniello | [LinkedIn]() | [GitHub](https://github.com/ACaniello) |
+| Team | Douglas Adão N. de Sousa | [LinkedIn](https://www.linkedin.com/in/douglasdans/) | [GitHub](https://github.com/DouglasDans) |
 | Team | Jackeline | [LinkedIn]() | [GitHub](https://github.com/jackelinepaula) |
 | Team | Pedro | [LinkedIn]() | [GitHub]() |
 | Team | Priscila | [LinkedIn]() | [GitHub]() |
