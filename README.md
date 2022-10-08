@@ -41,7 +41,12 @@ flowchart LR
 
 A entrega das documentações foram feitas de forma contínua seguinto as aulas de **Engenharia de Software I** - conforme a evolução das atividades, evoluímos todos os documentos criados para o **Projeto Integrado**. 
 
-| Documentação | Tag | Lançamento | Status | 
+| Documentação - Levantamento de Requisitos | Tag | Lançamento | Status | 
+|:-----:|:-------------:|:----------:|:---------:|
+| [Diagrama de Casos de Uso](https://github.com/backtoaldo/sejaheroi/blob/main/Levantamento%20de%20Requisitos/Rascunho%20do%20Diagrama%20de%20Casos.pdf) | 01 | 26/09/2022 | Entregue | 
+
+
+| Documentação - Plano Estratérico do Projeto | Tag | Lançamento | Status | 
 |:-----:|:-------------:|:----------:|:---------:|
 | [Plano Estratégico do Projeto - Sumário Executivo](https://github.com/backtoaldo/sejaheroi/blob/main/Plano%20Estrat%C3%A9gico%20do%20Projeto/Plano%20Estrat%C3%A9gico%20do%20Projeto%20-%20Sum%C3%A1rio%20Executivo.pdf) | 01 | 12/09/2022 | Entregue | 
 | [Plano Estratégico do Projeto - Metas do Projeto](https://github.com/backtoaldo/sejaheroi/blob/main/Plano%20Estrat%C3%A9gico%20do%20Projeto/Plano%20Estrat%C3%A9gico%20do%20Projeto%20-%20Metas%20do%20Projeto.pdf) | 02 | 12/09/2022 | Entregue |
@@ -64,7 +69,7 @@ Pesquisa de Mercado, Wireframes, Mockup e Rascunhos feitos podem ser encontrados
 
 | Nome | Tag | Data | Status |
 |:-----:|:-------------:|:----------:|:---------:|
-| [Rascunho](https://github.com/backtoaldo/sejaheroi/blob/main/Design%20e%20Prot%C3%B3tipo/Rascunhos%20-%20001.pdf) | 01 | 12/09/2022 | --- |    
+| [Rascunho](https://github.com/backtoaldo/sejaheroi/blob/main/Design%20e%20Prot%C3%B3tipo/Rascunhos%20-%20001.pdf) | 01 | 12/09/2022 | Entregue |    
     
 >**Wireframes:** Construímos os possíveis wireframes em cima das pesquisas de mercado e dos rascunhos desenvolvidos. Chegamos a muitas possibilidades e pegamos as menos complexas de implementar.
 
