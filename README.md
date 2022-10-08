@@ -69,6 +69,8 @@ Pesquisa de Mercado, Wireframes, Mockup e Rascunhos feitos podem ser encontrados
 
 | Nome | Tag | Data | Status |
 |:-----:|:-------------:|:----------:|:---------:|
+| [Versão 1.0](https://github.com/backtoaldo/sejaheroi/blob/main/Design%20e%20Prot%C3%B3tipo/Vers%C3%A3o%201.%200%20-%20Seja%20Her%C3%B3i!.pdf) | 01 | 07/10/2022 | Entregue |
+| [Entrega das primeiras 4 telas ao professor](https://github.com/backtoaldo/sejaheroi/blob/main/Design%20e%20Prot%C3%B3tipo/PI%20-%20Site%20Seja%20Her%C3%B3i!%20-%20Primeira%20entrega%20(Home%2C%20Lista%20User%2C%20Cadastro%2C%20Cadastro%20Caso).pdf) | 02 | 07/10/2022 | Entregue |
 
 <span id="tecnologias">
 
@@ -96,7 +98,7 @@ Membros do curso de Desenvolvimento de Software Multiplataforma presentes no pro
 | Team | Douglas Adão N. de Sousa | [LinkedIn](https://www.linkedin.com/in/douglasdans/) | [GitHub](https://github.com/DouglasDans) |
 | Team | Jackeline | [LinkedIn]() | [GitHub](https://github.com/jackelinepaula) |
 | Team | Pedro | [LinkedIn]() | [GitHub]() |
-| Team | Priscila | [LinkedIn]() | [GitHub]() |
+| Team | Priscila | [LinkedIn]() | [GitHub](https://github.com/alvesprih) |
 
 <span id="licenca">
 
