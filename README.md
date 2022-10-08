@@ -62,6 +62,10 @@ Pesquisa de Mercado, Wireframes, Mockup e Rascunhos feitos podem ser encontrados
 
 >**Rascunhos:** Foram feitos diferentes esboços para o projeto, alguns em sala de aula, desenhos em outros softwares e outros já seguindo o formato do figma.
 
+| Nome | Tag | Data | Status |
+|:-----:|:-------------:|:----------:|:---------:|
+| [Rascunho](https://github.com/backtoaldo/sejaheroi/blob/main/Design%20e%20Prot%C3%B3tipo/Rascunhos%20-%20001.pdf) | 01 | 12/09/2022 | --- |    
+    
 >**Wireframes:** Construímos os possíveis wireframes em cima das pesquisas de mercado e dos rascunhos desenvolvidos. Chegamos a muitas possibilidades e pegamos as menos complexas de implementar.
 
 | Nome | Tag | Data | Status |
