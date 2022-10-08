@@ -18,8 +18,7 @@
 O projeto **Seja Herói** tem como objetivo criar uma página web e futuramente mobile para ajudar diferentes ONG's em suas campanhas, ajudando tanto em diferentes arrecadações, quanto em visualização, divulgação e outros objetivos subsequentes. **Nesta primeira etapa** desenvolvemos as primeiras documentações e a primeira fase de design, responsividade e código do produto.
 
 >*Projeto baseado em metodologia ágil, kanban, procurando desenvolver a colaboração, autonomia de serviço, proatividade e entrega de resultado dos envolvidos.*
-
-> Projeto ainda em **desenvolvimento**.
+>> Projeto ainda em **desenvolvimento**.
 
 > Projeto desenvolvido sob a orientação do professor [Francisco Douglas Lima  Abreu](https://www.linkedin.com/in/franciscodougllas/) e demais professores correspondentes as matérias satélites do curso de *Desenvolvimento de Software Multiplataforma*.
 
@@ -66,6 +65,10 @@ Pesquisa de Mercado, Wireframes, Mockup e Rascunhos feitos podem ser encontrados
 >**Wireframes:** Construímos os possíveis wireframes em cima das pesquisas de mercado e dos rascunhos desenvolvidos. Chegamos a muitas possibilidades e pegamos as menos complexas de implementar.
 
 >**Mockup:** Feito no figma nas versões desktop web e mobile para diferentes celulares. ***Por enquanto se mantém na versão 1.0.***
+
+Primeira Versão do protótipo no figma, com flow entre as páginas já adicionado:
+
+![Preview!](https://github.com/backtoaldo/sejaheroi/blob/main/Design%20e%20Prot%C3%B3tipo/%E2%96%B6%20Desktop%20-%20Seja%20Her%C3%B3i!%20-%20Google%20Chrome%202022-10-07%2022-39-27.gif)<br>
 
 | Nome | Tag | Data | Status |
 |:-----:|:-------------:|:----------:|:---------:|
