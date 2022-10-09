@@ -119,5 +119,9 @@ Membros do curso de Desenvolvimento de Software Multiplataforma presentes no pro
 <span id="licenca">
 
 ## Licença
+[GNU GENERAL PUBLIC LICENSE](https://github.com/backtoaldo/sejaheroi/blob/main/LICENSE.md)
+<p align="center">The GNU General Public License is a free, copyleft license for software and other kinds of works.</p>
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+>The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too.
+
+>When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for them if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs, and that you know you can do these things.
