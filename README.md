@@ -56,6 +56,9 @@ A entrega das documentações foram feitas de forma contínua seguinto as aulas 
 | [Plano Estratégico do Projeto - Stakeholders](https://github.com/backtoaldo/sejaheroi/blob/main/Plano%20Estrat%C3%A9gico%20do%20Projeto/Plano%20Estrat%C3%A9gico%20do%20Projeto%20-%20Stakeholders.pdf) | 06 | 19/09/2022 | Entregue |
 | [Plano Estratégico do Projeto - Plano de Comunicação](https://github.com/backtoaldo/sejaheroi/blob/main/Plano%20Estrat%C3%A9gico%20do%20Projeto/Plano%20Estrat%C3%A9gico%20do%20Projeto%20-%20Plano%20de%20Comunica%C3%A7%C3%A3o.docx.pdf) | 07 | 19/09/2022 | Entregue |
 
+| Documentação - Canvas | Tag | Lançamento | Status | 
+|:-----:|:-------------:|:----------:|:---------:|
+| [Canvas](https://github.com/backtoaldo/sejaheroi/blob/main/Canvas%20para%20o%20Projeto/Canvas/Canvas%20vers%C3%A3o%201.0.pdf) | 08 | 17/10/2022 | Entregue |
 
 <span id="designeprototipo">
 
