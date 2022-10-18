@@ -1,7 +1,9 @@
 # Projeto Canvas
 
  - O objetivo desse projeto é automatizar o Canvas do projeto, a existencia do canvas estático é bom para o projeto e se necessário diferentes canvas, esta solução está sendo construída para esta finalidade.
-### Projeto para o SejaHeroi de um quadro de PMC, para planejar o projeto
+
+### Projeto para o SejaHeroi de um quadro de PMC, para planejamento do projeto.
+
 ## Sobre o projeto
 
 Ambiente para fazer o planejamento do projeto dentro da Project Model Canvas 
