@@ -101,10 +101,14 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML): Estrutura das páginas do site
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS): Estilização do site
 - [Visual Studio Code](https://code.visualstudio.com/): Codificação
-- [Discord](https://discord.com/): Comunicação
+- [Discord](https://discord.com/) e [Microsoft Teams](https://www.microsoft.com/en/microsoft-teams/log-in): Comunicação
 - [GitHub](https://github.com/): Versionamento e documentação
 
 <span id="equipe">
+
+### Primeiro Pitch
+
+- [Vídeo de apresentação do projeto - Você será levado ao youtube ao clickar no link.](https://youtu.be/g2OVaMyGLzI)
 
 ## Equipe
 
