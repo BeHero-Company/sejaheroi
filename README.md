@@ -100,6 +100,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 - [Figma](http://www.figma.com): Prototipagem
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML): Estrutura das páginas do site
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS): Estilização do site
+- [JavaScript](https://www.javascript.com/)
 - [Visual Studio Code](https://code.visualstudio.com/): Codificação
 - [Discord](https://discord.com/) e [Microsoft Teams](https://www.microsoft.com/en/microsoft-teams/log-in): Comunicação
 - [GitHub](https://github.com/): Versionamento e documentação
