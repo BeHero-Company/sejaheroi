@@ -10,6 +10,18 @@
     transition: .3s;
 }
 
+:root{
+    --color1-background: #EBDFCC;
+    --color2-linha-inputs: #DCDCE5;
+    --color3-inputs: #fff;
+    --color4-txt-sec: #A8A8B3;
+    --color5-txt-: #737380;
+    --color6-tit-sec: #021B2B;
+    --color7-tit: #02031A;
+    --color8-seja-heroi: #FF0841;
+
+}
+
 body{
     background-color: #e5e5e5;
 }
