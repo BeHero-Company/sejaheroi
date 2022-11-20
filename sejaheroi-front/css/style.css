@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    transition: .3s;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+/* Main */
+.main{
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.main .logo {
+    width: 400px;
+}
+
+.main .logo img{
+    width: 100%;
+}
+
+/* Left e Right */
+.main .left, .main .right{
+    display: flex;
+    width: 420px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+}
+
+.main .right .img{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+.main .right .img img{
+    width: 100%;
+}
+
+/* Title */
+.main .left h3{
+    color: #021b2b;
+    font-size: 25px;
+}
+
+/* Form */
+
+.left .form{
+    width: 400px;
+}
+
+.left .form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.left .form form input{
+    width: 300px;
+    height: 55px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    color: #021b2b;
+    border: 1px solid #dcdce5;
+    margin-top: 8px;
+}
+
+.left .form form input:focus{
+    border: 1px solid #ff08429f;
+    transition: .5s;
+}
+
+/* Button */
+.left .form form .btn-enviar{
+    cursor: pointer;
+    background-color: #FF0841;
+    color: #fff;
+    width: 320px;
+}
+
+.left .form form .btn-enviar:hover{
+    background-color: #d40938;
+}
+
+.link{
+    display: flex;
+    margin-top: 15px;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+.link p{
+    margin-left: 10px;
+    color: #021b2b;
+    font-weight: 450;
+}
+
+.link p:hover{
+    font-weight: bold;
+    transition: .2s;
+}
+
