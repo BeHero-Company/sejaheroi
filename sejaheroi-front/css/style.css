@@ -321,6 +321,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 50%;
     gap: 2rem;
+    padding-bottom: 3rem;
 }
 
 .container-main .cards .cards-container .card{
