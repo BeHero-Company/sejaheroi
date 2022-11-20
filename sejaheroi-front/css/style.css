@@ -6,7 +6,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins';
+    font-family: 'Roboto';
     transition: .3s;
 }
 
@@ -15,7 +15,7 @@
     --color2-linha-inputs: #DCDCE5;
     --color3-inputs: #fff;
     --color4-txt-sec: #A8A8B3;
-    --color5-txt-: #737380;
+    --color5-txt: #737380;
     --color6-tit-sec: #021B2B;
     --color7-tit: #02031A;
     --color8-seja-heroi: #FF0841;
@@ -252,4 +252,110 @@ body{
     font-weight: bold;
     transition: .2s;
 }
+
+/* Lista Casos */
+
+/* Main */
+.container-main{
+    margin: auto;
+    width: 1200px;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.header{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px 0;
+
+}
+
+.header .right-header{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.header .right-header .button-cadastro{
+    height: 50px;
+    padding: 0 2rem;
+    background-color: #FF0841;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+}
+
+.header .right-header .button-logout{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: #bababa;
+    border-inline-color: #bababa;
+}
+
+/* Título */
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo span{
+    font-size: 1.3rem;
+}
+
+/* Cards */
+
+.container-main .cards h1{
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.container-main .cards .cards-container{
+    display: grid;
+    grid-template-columns: 1fr 50%;
+    gap: 2rem;
+}
+
+.container-main .cards .cards-container .card{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.cards-container .card .lixeira{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.cards-container .card .topico-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cards-container .card .topico-card span{
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.cards-container .card .topico-card p{
+    font-size: 1rem;
+    color:var(--color5-txt);
+}
+
 
