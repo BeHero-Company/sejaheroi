@@ -56,11 +56,11 @@ body{
 /* Main */
 .main{
     margin: auto;
+    margin-top: 80px;
     width: 1100px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    height: 90vh;
+    height: 85vh;
 }
 
 /* Alteração na cor localizada embaixo da primeira informação do texto */
@@ -76,8 +76,18 @@ body{
     width: 90%;
 }
 
+
 /* Left e Right */
-.main .left, .main .right{
+
+.main .left{
+    display: flex;
+    width: 420px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.main .right{
     display: flex;
     width: 420px;
     flex-direction: column;
@@ -103,61 +113,65 @@ body{
     font-size: 20px;
 }
 
-/* Form */
 
-.left .form{
-    width: 380px;
+.cadastro-left{
+    display: flex;
+    width: 420px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 0px;
 }
 
-.left .form form{
+/* cadastronovocaso.html - Cadastro das informações do caso especificado pela ONG */
+
+.right .novocaso{
+    width: 400px;
+}
+
+.right .novocaso form{
     display: flex;
     flex-direction: column;
 }
 
-.left .form form input{
-    width: 280px;
-    height: 50px;
+.right .novocaso form input{
+    width: 300px;
+    height: 55px;
     padding: 0px 10px 0px 10px;
     border-radius: 8px;
     outline: none;
-    font-size: 15px;
+    font-size: 16px;
     color: #021b2b;
     border: 1px solid #dcdce5;
     margin-top: 8px;
 }
 
-.left .form form input:focus{
+.right .novocaso form input:focus{
     border: 1px solid #ff08429f;
     transition: .5s;
 }
 
-/* Button */
-.left .form form .btn-enviar{
+/* Mudança no botão de cadastrar novo caso */
+
+.right .novocaso form .btn-cadastrarnovo{
     cursor: pointer;
     background-color: #FF0841;
     color: #fff;
-    width: 300px;
+    width: 220px;
 }
 
-.left .form form .btn-enviar:hover{
+.btn-cadastrarnovo{
+    display: inline-block;
+}
+
+.right .novocaso form .btn-cadastrar:hover{
     background-color: #d40938;
 }
 
-.left .form form .btn-cadastrar{
-    cursor: pointer;
-    background-color: #FF0841;
-    color: #fff;
-    width: 320px;
+.btn-cancelarnovo{
+    display: inline-block;
 }
 
-.left .form form .btn-cadastrar:hover{
-    background-color: #d40938;
-}
-
-.left .form form .link-senha{
-    margin-top: 10px;
-    text-decoration: none;
-    color: #141414;
-    font-size: 0.8rem;
-    font-weight: 400;
+.right .novocaso form .btn-cancelarnovo {
+    width: 100px;
 }
