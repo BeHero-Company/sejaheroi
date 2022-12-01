@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins';
-    transition: .3s;
+    /* transition: 50ms; */
 }
 
 :root{
@@ -405,3 +405,80 @@ body{
 }
 
 
+/* INDEX - HOME */
+
+header {
+    background-color: #fafafa;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.150);
+}
+header .header-container{
+    width: 1100px;
+}
+
+header .acessibilidade {
+    height: 30px;
+    background-color: #fafafa;
+    
+    /* width: 1100px; */
+}
+
+header .acessibilidade .links-access{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+header .acessibilidade .links-access li{
+    list-style: none;
+}
+
+header .acessibilidade .links-access a{
+    text-decoration: none;
+    font-family: roboto;
+    color: black;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 15px 0;
+}
+
+header nav .buttons-container-nav{
+    display: flex;
+    gap: 20px;
+}
+
+header nav .buttons-container-nav .search-input{
+    border: solid 1px var(--color2-linha-inputs);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding:  5px 10px;
+}
+header nav .buttons-container-nav .search-input input{
+    border: 0;
+    width: 200px;
+}
+
+header nav .buttons-container-nav .login-btn{
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--color8-seja-heroi);
+    color: white;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.5rem 2rem ;
+}
+header nav .buttons-container-nav .login-btn:hover{
+    cursor: pointer;
+}
