@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins';
-    transition: .3s;
+    /* transition: 50ms; */
 }
 
 :root{
@@ -147,7 +147,7 @@ body{
 
 .right .formcadastro form input:focus{
     border: 1px solid #ff08429f;
-    transition: .5s;
+    transition: 50ms;
 }
 
 /* Button */

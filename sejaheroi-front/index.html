@@ -1,56 +1,40 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
-
+<html lang="pr-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Linkando CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Bem Vindo ao Seja Herói</title>
 </head>
-
 <body>
-
-    <div class="back-home">
-        <a href="#" class="btn-back">
-            <img src="img/voltar.svg" alt="Seta para a esquerda">
-            <p>Voltar para o início</p>
-        </a>
-    </div>
-
-    <!-- Main -->
-    <div class="main" id="main">
-        <div class="left">
-            <!-- Logo -->
-            <div class="logo">
-                <img src="img/logo.svg" alt="Logo da plataforma web Seja Herói">
+    <header>
+        <!-- Acessibilidade -->
+        <div class="header-container">
+            <div class="acessibilidade">
+                <ul class="links-access">
+                    <li><a href="acessibilidade.html">Acessibilidade</a></li>
+                    <li><a href="javascript:void(0);">Sem contraste</a></li>
+                    <li><a href="javascript:void(0);">Contraste Preto</a></li>
+                    <li><a href="javascript:void(0);">A-</a></li>
+                    <li><a href="javascript:void(0);">A+</a></li>
+                </ul>
             </div>
-            <!-- Form Logon -->
-            <div class="form">
-                <h3>Faça seu logon</h3>
-                <form>
-                    <input type="text" name="email" id="email" placeholder="Email">
-                    <input type="password" name="password" id="password" placeholder="Senha">
-                    <!-- <input type="submit" value="Entrar" class="btn-enviar"> -->
-                    <a href="casosCadastrados.html" class=""><input type="button" value="Entrar" class="btn-enviar"></a>
-                    <a href="#" class="link-senha">Esqueceu sua senha?</a>
-                </form>
-                <!-- Link form cadastro -->
-                <div class="link">
-                    <img src="img/ir.svg" alt="">
-                    <a href="cadastro.html"><p>Não possuo cadastro</p></a>
+            <!-- Header -->
+            <nav>
+                <div class="logo">
+                    <img src="img/logo.svg" height="70px" alt="Logo da plataforma web Seja Herói">
                 </div>
-            </div>
-
+                <div class="buttons-container-nav">
+                    <div class="search-input">
+                        <input type="text" placeholder="Buscar sua Iniciativa">
+                        <img src="img/search.svg" alt="">
+                    </div>
+                    <button class="login-btn">Entrar como ONG</button>
+                </div>
+            </nav>
         </div>
-        <div class="right">
-            <div class="img">
-                <img src="img/family-friend.png" alt="Ilustração de mãos levantadas">
-            </div>
-        </div>
-    </div>
-
+    </header>
 </body>
-
 </html>
