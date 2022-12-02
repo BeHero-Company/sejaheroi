@@ -743,10 +743,6 @@ header .nav-header .buttons-container-nav{
     color: var(--color5-txt);
 }
 
-
-
-
-
 /* MEDIA QUERIES */
 @media screen and (max-width: 1150px) {
     /* HEAder */
@@ -773,9 +769,10 @@ header .nav-header .buttons-container-nav{
 }
 @media screen and (max-width: 800px) {
     /* HEAder */
-    header .nav-header{
-        /* padding: 10px 25px; */
-    }
+    /* header .nav-header{
+        padding: 10px 25px;
+    } */
+    
     header .nav-header .buttons-container-nav .search-input{
         display: none;
     }
