@@ -26,6 +26,13 @@ body{
     background-color: var(--color1-background);
 }
 
+h1,h2,h3,h4{
+    font-family: 'Poppins';
+}
+p{
+    font-family: 'Roboto', 'Arial';
+}
+
 .back-home .btn-back{
     display: flex;
     align-items: center;
@@ -481,4 +488,150 @@ header nav .buttons-container-nav .login-btn{
 }
 header nav .buttons-container-nav .login-btn:hover{
     cursor: pointer;
+}
+
+/* BANNER */
+.banner img{
+    width: 100%;
+}
+
+/* DADOS SITE */
+.main-home-container{
+    margin: auto auto;
+    width: 1100px;
+}
+
+.main-home-container .ongs-container {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* CARDS ONG */
+.ongs-container .cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40PX;
+    justify-items: baseline;
+}
+
+.ongs-container h2, .casos-container h2{
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.ongs-container .cards-container .ong-card{
+    background-color: white;
+    box-shadow: 0px 4px 40px -15px #ff084221;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ongs-container .cards-container .ong-card img{
+    height: 220px;
+    width: 280px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.ongs-container .cards-container .ong-card .card-tags{
+    display: flex;
+    color: var(--color5-txt);
+    padding: 10px 0;
+}
+
+.ongs-container .cards-container .ong-card .infos-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 10px;
+}
+
+.ongs-container .cards-container .ong-card .infos-card h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.ongs-container .cards-container .ong-card .infos-card p{
+    color: var(--color5-txt);
+    height: 100px;
+}
+
+.ongs-container .cards-container .ong-card button{
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--color8-seja-heroi);
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 14px 2rem ; 
+}
+
+.casos-container .wide-card {
+    background-color: white;
+    box-shadow: 0px 4px 40px -15px #ff084221;
+    border-radius: 8px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 50%;
+}
+
+.casos-container .wide-card .right-card{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    
+}
+
+.casos-container .wide-card .right-card h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color7-tit);
+}
+
+.casos-container .wide-card .right-card small{
+    color: var(--color4-txt-sec);
+}
+
+.casos-container .wide-card .right-card .infos-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.casos-container .wide-card .right-card .infos-card h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color7-tit);
+}
+
+.casos-container .wide-card .right-card .card-buttons{
+    width: 100%;
+    display:flex;
+    gap: 20px;
+}
+.casos-container .wide-card .right-card .card-buttons button{
+    display:flex;
+    align-items: stretch;
+    justify-content: center;
+
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--color8-seja-heroi);
+    color: white;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px ; 
+}
+
+.casos-container .wide-card .right-card .card-buttons .ajudar-agora{
+    flex: 1;
 }
