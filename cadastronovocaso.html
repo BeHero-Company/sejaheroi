@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linkando CSS -->
+    <link rel="stylesheet" href="css/novocadastro.css">
+    <title>Cadastro novo caso</title>
+    <div class="Acessibilidade">
+        <div class="container">
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html"> Ir para o Inicio do Site</a>
+                <a href="login.html"> Ir para o login</a>&nbsp
+                <a href="casosCadastrados.html" classe="active"> Ir para casos cadastrados</a>
+                <a href="javascript:void(0)" data-contraste="0" title="Sem Contraste ">Sem Contraste</a>
+                <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+                <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <script type="text/javascript" src="js/contraste.js"></script>
+</head>
+
+<body>
+
+    <div class="back-home">
+        <a href="casosCadastrados.html" class="btn-back">
+            <img src="img/voltar.svg" alt="Voltar aos casos cadastrados">
+            <p>Voltar para o perfil</p>
+        </a>
+    </div>
+
+    <!-- Main -->
+    <div class="main" id="main">
+        <div class="left">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo da plataforma Seja Herói">
+            </div>
+
+            <!-- Form Cadastro Texto lado Esquerdo -->
+            <div class="cadastroesquerdo">
+                <h3>Cadastrar novo caso</h3> <br> <br>
+                <h4>Descreva o caso detalhadamente para <br>encontrar um herói para resolver isso.</br></h4>
+            </div>
+
+    </div>
+        <div class="right">
+            <!-- Form Cadastro de Novo Caso -->
+            <div class="novocaso">
+                <form>
+                    <input type="text" name="text" id="name" placeholder="Título do caso">
+                    <input type="text" name="text" id="text" placeholder="Descrição">
+                    <input type="number" name="number" id="number" placeholder="Valor em Reais">
+                    <input type="submit" value="Cancelar" class="btn-cancelarnovo" alt="Botão para cancelar cadastro de caso"> 
+                    <input type="submit" value="Cadastrar" class="btn-cadastrarnovo" alt="Botão confirmar cadastro de caso">
+                </form>
+                
+            </div>
+        </div>
+        </div>
+        
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+
+      <!-- VLibras -->
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>

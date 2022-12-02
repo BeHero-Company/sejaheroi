@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linkando CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+
+        <div class="Acessibilidade">
+            <div class="container">
+              <nav>
+                <ul>
+                  <li>
+                    <a href="index.html"> Ir para o Inicio do Site</a>
+                    <a href="login.html"> Ir para o login</a>&nbsp
+                    <a href="casosCadastrados.html" classe="active"> Ir para casos cadastrados</a>
+                    <a href="javascript:void(0)" data-contraste="0" title="Sem Contraste ">Sem Contraste</a>
+                    <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+                    <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+        <script type="text/javascript" src="js/contraste.js"></script>
+</head>
+
+<body>
+
+    <div class="back-home" data-massage="Botão para voltar a página inicial">
+        <a href="#" class="btn-back">
+            <img src="img/voltar.svg" alt="Botão para voltar a página inicial do site">
+            <p>Voltar para o início</p>
+        </a>
+    </div>
+    
+    <!-- Main -->
+    <div class="main" id="main">
+        <div class="left">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo da plataforma web Seja Herói">
+            </div>
+            <!-- Form Logon -->
+            <div class="form">
+                <h3>Faça seu logon</h3>
+                <form>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="@gmail.com">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Senha">
+                    <!-- <input type="submit" value="Entrar" class="btn-enviar"> -->
+                    <a href="casosCadastrados.html" class=""><input type="button" value="Entrar" class="btn-enviar"></a>
+                    <a href="#" class="link-senha">Esqueceu sua senha?</a>
+                </form>
+                <!-- Link form cadastro -->
+                <div class="link">
+                    <img src="img/ir.svg" alt="Botão redirecional para a página de cadastro">
+                    <a href="cadastro.html"><p>Não possuo cadastro</p></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="img">
+                <img src="img/family-friend.png" alt="Ilustração de mãos levantadas">
+            </div>
+        </div>
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+
+      <!-- VLibras -->
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+</body>
+
+</html>
