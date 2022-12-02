@@ -310,7 +310,7 @@ p{
 /* Main */
 .container-main{
     margin: auto;
-    width: 1200px;
+    width: 1100px;
     justify-content: space-around;
     height: 100vh;
 }
@@ -449,6 +449,7 @@ header .acessibilidade .links-access a{
 }
 
 header nav{
+    width: 1100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
