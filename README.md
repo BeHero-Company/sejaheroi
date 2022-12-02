@@ -78,7 +78,8 @@ Pesquisa de Mercado, Wireframes, Mockup e Rascunhos feitos podem ser encontrados
 
 | Nome | Tag | Data | Status |
 |:-----:|:-------------:|:----------:|:---------:|
-| [Wireframe do projeto](https://github.com/backtoaldo/sejaheroi/blob/main/Design%20e%20Prot%C3%B3tipo/PI%20-%20Site%20Seja%20Her%C3%B3i!%20-%20Wireframes.pdf) | 01 | 07/10/2022 | Entregue |
+| [Wireframe 1](https://github.com/backtoaldo/sejaheroi/blob/main/Design%20e%20Prot%C3%B3tipo/PI%20-%20Site%20Seja%20Her%C3%B3i!%20-%20Wireframes.pdf) | 01 | 07/10/2022 | Entregue |
+| [Wireframe 2](https://github.com/SejaHeroi-Company/sejaheroi/blob/main/Design%20e%20Prot%C3%B3tipo/Wireframe%202%20-%20Be%20Hero.pdf) | 02 | 30/11/2022 | Entregue |
 
 >**Mockup:** Feito no figma nas versões desktop web e mobile para diferentes celulares. ***Por enquanto se mantém na versão 1.0.***
 

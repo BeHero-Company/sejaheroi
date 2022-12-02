@@ -11,24 +11,14 @@
 </head>
 <body>
     <header>
-        <!-- Acessibilidade -->
-        <div class="header-container">
-            <div class="acessibilidade">
-                <ul class="links-access">
-                    <li><a href="acessibilidade.html">Acessibilidade</a></li>
-                    <li><a href="javascript:void(0);">Sem contraste</a></li>
-                    <li><a href="javascript:void(0);">Contraste Preto</a></li>
-                    <li><a href="javascript:void(0);">A-</a></li>
-                    <li><a href="javascript:void(0);">A+</a></li>
-                </ul>
-            </div>
+          </script>
             <!-- Header -->
             <nav>
                 <div class="logo">
                     <img src="img/logo.svg" height="70px" alt="Logo da plataforma web Seja Herói">
                 </div>
                 <div class="buttons-container-nav">
-                    <div class="search-input">
+                    <div class="search-input" data-massage="Digite aqui para buscar uma iniciativa">
                         <input type="text" placeholder="Buscar sua Iniciativa">
                         <img src="img/search.svg" alt="">
                     </div>
@@ -168,7 +158,17 @@
                 </div>
             </div>
         </section>
-
     </main>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </body>
 </html>

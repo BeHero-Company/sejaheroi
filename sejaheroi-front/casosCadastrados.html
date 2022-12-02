@@ -21,8 +21,8 @@
                 <img src="img/logo.svg" alt="Logotipo da Seja Herói">
             </div>
             <div class="right-header">
-                <a href="cadastronovocaso.html"><button class="button-cadastro">Cadastrar novo caso</button></a>
-                <a href="index.html"><button class="button-logout"><img src="img/power.svg" alt="Botão de power"></button></a>
+                <a href="cadastronovocaso.html"><button class="button-cadastro" alt="Botão para criar novo cadastro de caso">Cadastrar novo caso</button></a>
+                <a href="index.html"><button class="button-logout"><img src="img/power.svg" alt="Botão para sair"></button></a>
             </div>
         </header>
         
@@ -136,7 +136,16 @@
 
 
     </div>
-
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </body>
 
 </html>

@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Linkando CSS -->
     <link rel="stylesheet" href="css/novocadastro.css">
-    <title>Document</title>
+    <title>Cadastro novo caso</title>
 </head>
 
 <body>
 
     <div class="back-home">
         <a href="casosCadastrados.html" class="btn-back">
-            <img src="img/voltar.svg" alt="Seta para a esquerda">
+            <img src="img/voltar.svg" alt="Voltar aos casos cadastrados">
             <p>Voltar para o perfil</p>
         </a>
     </div>
@@ -24,10 +24,10 @@
         <div class="left">
             <!-- Logo -->
             <div class="logo">
-                <img src="img/logo.svg" alt="Logo da plataforma web Seja Herói">
+                <img src="img/logo.svg" alt="Logo da plataforma Seja Herói">
             </div>
 
-            <!-- Form Cadastro Texto lado Esquedo -->
+            <!-- Form Cadastro Texto lado Esquerdo -->
             <div class="cadastroesquerdo">
                 <h3>Cadastrar novo caso</h3> <br> <br>
                 <h4>Descreva o caso detalhadamente para <br>encontrar um herói para resolver isso.</br></h4>
@@ -41,8 +41,8 @@
                     <input type="text" name="text" id="name" placeholder="Título do caso">
                     <input type="text" name="text" id="text" placeholder="Descrição">
                     <input type="number" name="number" id="number" placeholder="Valor em Reais">
-                    <input type="submit" value="Cancelar" class="btn-cancelarnovo"> 
-                    <input type="submit" value="Cadastrar" class="btn-cadastrarnovo">
+                    <input type="submit" value="Cancelar" class="btn-cancelarnovo" alt="Botão para cancelar cadastro de caso"> 
+                    <input type="submit" value="Cadastrar" class="btn-cadastrarnovo" alt="Botão confirmar cadastro de caso">
                 </form>
                 
             </div>
@@ -50,5 +50,14 @@
         </div>
         
     </div>
-
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </body>
