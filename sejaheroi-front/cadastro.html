@@ -27,7 +27,7 @@
 </head>
 
 <body>
-
+<!-- Voltar para a home -->
     <div class="back-home">
         <a href="index.html" class="btn-back">
             <img src="img/voltar.svg" alt="Seta para a voltar">
@@ -37,34 +37,43 @@
 
     <!-- Main -->
     <div class="main" id="main">
-        <div class="left cadastro-left">
+        <div class="left">
             <!-- Logo -->
             <div class="logo">
                 <img src="img/logo.svg" alt="Logo da plataforma Seja Herói">
             </div>
 
             <!-- Form Cadastro Texto lado Esquedo -->
-            <div class="cadastroesquerdo">
-                <h3>Cadastro</h3> <br> <br>
-                <h4>Faça seu cadastro, entre na plataforma e ajuda <br>pessoas a encontrarem os casos da sua ONG.</b>
-                </h4>
+            <div class="texts">
+                <h3>Solicite o cadastro na plataforma</h3>
+                <p>Faça a solicitação do seu cadastro, entre na plataforma e ajude pessoas a encontrarem os casos da sua ONG.</b>
+                </p>
             </div>
-            <!-- Link voltar para o login -->
-            <!-- <div class="link">
-                <img src="img/voltar.svg" alt="">
-                <a href="#"><p>Voltar para o Login</p></a>
-            </div> -->
         </div>
 
         <div class="right">
             <!-- Form Cadastro -->
             <div class="formcadastro">
                 <form>
-                    <input type="text" name="text" id="name" placeholder="Nome da ONG">
-                    <input type="email" name="email" id="email" placeholder="E-mail">
-                    <input type="tel" name="tel" id="tel" placeholder="WhatsApp">
-                    <input type="" name="password" id="password" placeholder="Senha">
-                    <input type="submit" value="Cadastrar" class="btn-cadastrar">
+                    <label for="name">Nome da ONG</label>
+                    <input type="text" name="name" id="name" placeholder="ONG">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="@gmail.com">
+                    <label for="tel">Telefone</label>
+                    <input type="text" name="tel" id="tel" placeholder="(11)99999-9999">
+                    <label for="cnpj">CNPJ</label>
+                    <input type="text" name="cnpj" id="cnpj" placeholder="00.000.000/0000-00">
+                    <select class="causa" name="causa" id="causa">
+                        <option value="#" selected disabled>Qual a causa da sua ONG?</option>
+                        <option value="1">PCDs</option>
+                        <option value="2">Educação</option>
+                        <option value="3">Saúde</option>
+                    </select>
+                    <fieldset class="checkbox">
+                        <input type="checkbox" name="termos" id="termos">
+                        <label for="termos">Li e concordo com os <span>Termos e Condições.</span></label>
+                    </fieldset>
+                    <input type="submit" value="Solicitar cadastro" class="btn-cadastrar">
                 </form>
 
             </div>
