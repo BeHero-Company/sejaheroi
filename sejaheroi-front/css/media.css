@@ -1,0 +1,223 @@
+@media (max-width: 1099px) {
+
+    /* Perfil */
+    header .nav-header {
+        width: 900px;
+    }
+
+    .main-perfil {
+        width: 900px;
+    }
+
+    .footer .section-footer {
+        width: 900px;
+    }
+}
+
+@media (max-width: 920px) {
+
+    /* Perfil */
+    header .nav-header {
+        width: 600px;
+    }
+
+    .main-perfil {
+        width: 600px;
+        margin-top: 15px;
+    }
+
+    .main-perfil .section-perfil {
+        flex-direction: column-reverse;
+    }
+
+    .section-perfil .left-imagens, .section-perfil .right-dados {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .right-dados .categoria p {
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--color5-txt);
+        margin-left: 5px;
+    }
+
+    .right-dados .nome-ong {
+        color: var(--color6-tit-sec);
+        font-size: 2.2rem;
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+    .right-dados .descricao {
+        margin-top: 10px;
+        font-size: 1rem;
+        width: 90%;
+        color: var(--color5-txt);
+    }
+
+    .right-dados a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+        background-color: var(--color8-seja-heroi);
+        border-radius: 8px;
+        height: 55px;
+        text-decoration: none;
+        margin-top: 40px;
+        transition: .6s;
+    }
+
+    .right-dados a:hover {
+        background-color: #b80831;
+        transition: .6s;
+    }
+
+    /* Cards */
+
+    .cards .card {
+        width: 100%;
+        background-color: var(--color3-inputs);
+        margin-top: 50px;
+        padding: 18px 20px 18px 20px;
+        border-radius: 4px;
+        box-shadow: 0rem 0rem 1rem 1px #ff084218;
+    }
+
+
+    .footer .section-footer {
+        width: 600px;
+    }
+
+
+    .nav .buttons a {
+        width: 180px;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        color: #fff;
+        border-radius: 4px;
+        margin-top: 15px;
+        background-color: var(--color8-seja-heroi);
+    }
+
+}
+
+@media (max-width: 610px) {
+
+    /* Perfil */
+    header .nav-header {
+        width: 100%;
+    }
+
+    .main-perfil {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .main-perfil .section-perfil {
+        flex-direction: column-reverse;
+    }
+
+    .section-perfil .left-imagens, .section-perfil .right-dados {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .section-casos .title {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    /* Slider */
+    [class^="number-slide"],
+    [class*=" number-slide"] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        color: #fff;
+        font-weight: 500;
+        height: 250px;
+    }
+
+    .number-slide1, .number-slide2, .number-slide3 {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .thumbnail .keen-slider__slide {
+        font-size: 30px;
+        margin-top: 10px;
+        height: 60px;
+    }
+
+    .right-dados .categoria p {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: var(--color5-txt);
+        margin-left: 5px;
+    }
+
+    .right-dados .nome-ong {
+        color: var(--color6-tit-sec);
+        font-size: 2rem;
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+    .right-dados .descricao {
+        margin-top: 10px;
+        font-size: 1rem;
+        width: 90%;
+        color: var(--color5-txt);
+    }
+
+    .right-dados a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 500;
+        background-color: var(--color8-seja-heroi);
+        border-radius: 8px;
+        height: 50px;
+        text-decoration: none;
+        margin-top: 40px;
+        transition: .6s;
+    }
+
+    .right-dados a:hover {
+        background-color: #b80831;
+        transition: .3s;
+    }
+
+
+    .footer .section-footer {
+        width: 90%;
+        margin: auto;
+        
+    }
+
+    .section-footer .nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+}
