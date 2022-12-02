@@ -750,7 +750,7 @@ header .nav-header .buttons-container-nav{
 /* MEDIA QUERIES */
 @media screen and (max-width: 1150px) {
     /* HEAder */
-    header .header-container{
+    header .nav-header{
         width: 100%;
     }
     .main-home-container{
@@ -767,13 +767,16 @@ header .nav-header .buttons-container-nav{
     .casos-container {
         margin: 0 10px;
     }
+    .footer .section-footer {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 800px) {
     /* HEAder */
-    header nav{
-        padding: 10px 25px;
+    header .nav-header{
+        /* padding: 10px 25px; */
     }
-    header nav .buttons-container-nav{
+    header .nav-header .buttons-container-nav .search-input{
         display: none;
     }
     header .header-container{
@@ -794,5 +797,18 @@ header .nav-header .buttons-container-nav{
     
     .casos-container .wide-card .right-card .infos-card h3{
         font-size: 1.3rem;
+    }
+    .footer .section-footer .nav .buttons{
+        display: none;
+    }
+    .footer .section-footer .logo{
+        padding-left: 2rem;
+    }
+    .footer .section-footer .nav{
+        padding-left: 2rem;
+    }
+    .footer .section-footer .direitos{
+        padding-left: 2rem;
+        width: 90%;
     }
 }
