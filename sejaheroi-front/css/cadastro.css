@@ -94,7 +94,7 @@ body{
 }
 
 /* Title */
-.main .left h3{
+.main .left .texts .title{
     color: var(--color6-tit-sec);
     font-size: 1.7rem;
     font-weight: 600;
