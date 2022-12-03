@@ -1,0 +1,319 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+:root {
+    --color1-background: #FFFEF0;
+    --color2-linha-inputs: #DCDCE5;
+    --color3-inputs: #fff;
+    --color4-txt-sec: #A8A8B3;
+    --color5-txt: #5b5b66;
+    --color6-tit-sec: #021B2B;
+    --color7-tit: #02031A;
+    --color8-seja-heroi: #FF0841;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: #fafafa;
+    box-shadow: 0rem 0.1rem 3rem 0.5rem #ff084217;
+}
+
+header .nav-header{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
+
+header .nav-header .logo{
+    width: 260px;
+}
+
+header .nav-header .logo img{
+    width: 100%;
+}
+
+header .nav-header .buttons-container-nav{
+    display: flex;
+    align-items: center;
+}
+
+.buttons-container-nav .search-input{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--color2-linha-inputs);
+}
+
+.buttons-container-nav .search-input input{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttons-container-nav .login-btn{
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--color8-seja-heroi);
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.buttons-container-nav .login-btn:hover{
+    background-color: #b80831;
+    transition: .3s;
+}
+
+/* BANNER */
+.banner img{
+    width: 100%;
+}
+
+/* DADOS SITE */
+.main-home-container{
+    margin: auto auto;
+    width: 1100px;
+}
+
+.main-home-container .ongs-container {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* CARDS ONG */
+.ongs-container .cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40PX;
+    justify-items: baseline;
+}
+
+.ongs-container h2, .casos-container h2{
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.ongs-container .cards-container .ong-card{
+    background-color: white;
+    box-shadow: 0px 4px 40px -15px #ff084221;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ongs-container .cards-container .ong-card img{
+    height: 220px;
+    width: 280px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.ongs-container .cards-container .ong-card .card-tags{
+    display: flex;
+    color: var(--color5-txt);
+    padding: 10px 0;
+}
+
+.ongs-container .cards-container .ong-card .infos-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 10px;
+}
+
+.ongs-container .cards-container .ong-card .infos-card h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.ongs-container .cards-container .ong-card .infos-card p{
+    color: var(--color5-txt);
+    height: 100px;
+}
+
+.ongs-container .cards-container .ong-card button{
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--color8-seja-heroi);
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 14px 2rem ; 
+    width: 100%;
+}
+
+.ongs-container .cards-container .ong-card button:hover{
+    cursor: pointer;
+    background-color: #b80831;
+    transition: .6s;
+}
+
+.casos-container .wide-card {
+    background-color: white;
+    box-shadow: 0px 4px 40px -15px #ff084221;
+    border-radius: 8px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 50%;
+}
+
+.casos-container .wide-card .right-card{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    
+}
+
+.casos-container .wide-card .right-card h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color7-tit);
+}
+
+.casos-container .wide-card .right-card small{
+    color: var(--color4-txt-sec);
+}
+
+.casos-container .wide-card .right-card .infos-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.casos-container .wide-card .right-card .infos-card h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color7-tit);
+}
+
+.casos-container .wide-card .right-card .card-buttons{
+    width: 100%;
+    display:flex;
+    gap: 20px;
+}
+.casos-container .wide-card .right-card .card-buttons button{
+    display:flex;
+    align-items: stretch;
+    justify-content: center;
+
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--color8-seja-heroi);
+    color: white;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px ; 
+}
+
+.casos-container .wide-card .right-card .card-buttons .ajudar-agora{
+    flex: 1;
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    background-color: #fafafa;
+    margin-top: 100px;
+    padding: 30px 0px 30px 0px;
+}
+
+.footer .section-footer{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.section-footer .logo {
+    width: 280px;
+}
+
+.section-footer .logo img{
+    width: 100%;
+}
+
+.section-footer .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav .menu{
+    list-style-type: none;
+}
+
+.nav .menu li{
+    margin-top: 5px;
+}
+
+.nav .menu a{
+    text-decoration: none;
+    color: var(--color6-tit-sec);
+    font-weight: 500;
+    transition: .2s;
+}
+
+.nav .menu a:hover{
+    font-weight: bold;
+}
+
+
+.nav .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
+}
+
+.nav .buttons a{
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 15px;
+    background-color: var(--color8-seja-heroi);
+}
+
+.nav .buttons a:hover{
+    background-color: #b80831;
+    transition: .3s;
+}
+
+.section-footer .direitos{
+    margin-top: 40px;
+    border-top: 0.5px solid var(--color2-linha-inputs);
+    width: 100%;
+}
+
+.section-footer .direitos p{
+    margin-top: 20px;
+    color: var(--color5-txt);
+}
