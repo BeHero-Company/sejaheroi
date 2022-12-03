@@ -175,3 +175,20 @@ body{
 .right .novocaso form .btn-cancelarnovo {
     width: 100px;
 }
+
+
+
+
+
+@media (max-width: 1099px) {
+    .main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+
+
+}
