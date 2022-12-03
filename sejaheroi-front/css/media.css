@@ -1,4 +1,22 @@
 @media (max-width: 1099px) {
+    /* HOME */
+
+    .main-home-container{
+        width: 100%;
+    }
+    .wide-card{
+        display: flex;
+        justify-content: center;
+    }
+    .left-card img{
+        width: 100%;
+    }
+    .casos-container , .ongs-container{
+        margin: 0 10px;
+    }
+    .footer .section-footer {
+        width: 100%;
+    }
 
     /* Perfil */
     header .nav-header {
@@ -13,6 +31,7 @@
     .footer .section-footer {
         width: 900px;
     }
+
 }
 
 @media (max-width: 920px) {
@@ -138,6 +157,35 @@
     }
 
 }
+
+@media screen and (max-width: 800px) {
+    .casos-container .wide-card {
+        background-color: white;
+        box-shadow: 0px 4px 40px -15px #ff084221;
+        border-radius: 8px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .casos-container .wide-card .right-card {
+        padding: 0;
+    }
+    .casos-container .wide-card .right-card .infos-card h3{
+        font-size: 1.3rem;
+    }
+    .footer .section-footer .logo{
+        padding-left: 2rem;
+    }
+    .footer .section-footer .nav{
+        padding-left: 2rem;
+        box-sizing: border-box;
+    }
+    .footer .section-footer .direitos{
+        padding-left: 2rem;
+        width: 90%;
+    }
+}
+
 
 @media (max-width: 610px) {
 
