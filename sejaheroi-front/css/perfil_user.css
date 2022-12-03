@@ -76,6 +76,8 @@ header .nav-header .buttons-container-nav{
     color: #fff;
     margin-left: 20px;
     cursor: pointer;
+    text-decoration: none;
+    font-size: 0.8rem;
 }
 
 .buttons-container-nav .login-btn:hover{
