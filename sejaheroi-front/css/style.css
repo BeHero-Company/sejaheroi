@@ -592,6 +592,13 @@ header .nav-header .buttons-container-nav{
     font-weight: 500;
     font-size: 1rem;
     padding: 14px 2rem ; 
+    width: 100%;
+}
+
+.ongs-container .cards-container .ong-card button:hover{
+    cursor: pointer;
+    background-color: #b80831;
+    transition: .6s;
 }
 
 .casos-container .wide-card {
