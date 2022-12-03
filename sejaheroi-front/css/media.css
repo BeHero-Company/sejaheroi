@@ -1,3 +1,9 @@
+@media (max-width: 1400px) {
+    .ongs-container .cards-container {
+        column-gap: 115px;
+    }
+}
+
 @media (max-width: 1099px) {
     /* HOME */
 
