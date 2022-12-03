@@ -344,3 +344,36 @@ header .nav-header .buttons-container-nav{
     margin-top: 20px;
     color: var(--color5-txt);
 }
+
+
+.acessibilidade {
+    display: flex;
+    background-color: #fafafa;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    height: 30px;
+    align-items: center;
+}
+
+.acessibilidade .links_access, .acessibilidade .atalhos {
+    list-style: none;
+}
+
+.links_access, .atalhos{
+    display: flex; 
+}
+
+.links_access li{
+    margin-left: 20px;
+}
+
+.links_access li a{
+    text-decoration: none;
+    color: var(--color5-txt);
+    font-size: 0.9rem;
+}
+
+.links_access li a:hover{
+    color: #141414;
+    transition: .3s;
+}
