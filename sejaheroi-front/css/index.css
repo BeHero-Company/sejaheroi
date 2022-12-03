@@ -98,7 +98,8 @@ header .nav-header .buttons-container-nav{
     gap: 2rem;
 }
 
-/* CARDS ONG */
+/* Card ONGS */
+
 .ongs-container .cards-container{
     display: flex;
     flex-wrap: wrap;
@@ -109,47 +110,66 @@ header .nav-header .buttons-container-nav{
 
 .ongs-container h2, .casos-container h2{
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .ongs-container .cards-container .ong-card{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     box-shadow: 0px 4px 40px -15px #ff084221;
     border-radius: 8px;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.ongs-container .cards-container .ong-card img{
-    height: 220px;
     width: 280px;
-    border-radius: 8px;
-    object-fit: cover;
+    align-items: center;
 }
 
-.ongs-container .cards-container .ong-card .card-tags{
+.ong-card .img{
+    width: 280px;
+}
+
+.ong-card .img img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.ong-card .card-tags{
+    width: 95%;
+    margin: auto;
     display: flex;
+    align-items: baseline;
+}
+
+.ong-card .card-tags img{
+    width: 24px;
+}
+
+.ong-card .card-tags p{
     color: var(--color5-txt);
-    padding: 10px 0;
+    font-weight: 500;
+    margin-left: 5px;
 }
 
 .ongs-container .cards-container .ong-card .infos-card{
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding-bottom: 10px;
+    height: 140px;
 }
 
 .ongs-container .cards-container .ong-card .infos-card h3{
     font-weight: 500;
+    margin-top: 10px;
     font-size: 1.5rem;
+    color: var(--color4-tit-sec);
 }
 
 .ongs-container .cards-container .ong-card .infos-card p{
     color: var(--color5-txt);
-    height: 100px;
+    font-size: 0.9rem;
 }
 
 .ongs-container .cards-container .ong-card button{
@@ -158,16 +178,22 @@ header .nav-header .buttons-container-nav{
     background-color: var(--color8-seja-heroi);
     color: white;
     font-family: "Poppins";
+    height: 50px;
     font-weight: 500;
     font-size: 1rem;
-    padding: 14px 2rem ; 
-    width: 100%;
+    width: 260px;
+    margin: auto;
+}
+
+
+.ongs-container .cards-container .ong-card button a{
+    text-decoration: none;
+    color: white;
 }
 
 .ongs-container .cards-container .ong-card button:hover{
-    cursor: pointer;
     background-color: #b80831;
-    transition: .6s;
+    cursor: pointer;
 }
 
 .casos-container .wide-card {
@@ -185,7 +211,7 @@ header .nav-header .buttons-container-nav{
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
-    
+    gap: 1rem;
 }
 
 .casos-container .wide-card .right-card h2{
