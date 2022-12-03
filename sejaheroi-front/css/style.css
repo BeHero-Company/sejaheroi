@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins';
@@ -11,7 +11,7 @@
     /* box-sizing: border-box; */
 }
 
-:root{
+:root {
     --color1-background: #FFFEF0;
     --color2-linha-inputs: #DCDCE5;
     --color3-inputs: #fff;
@@ -23,7 +23,7 @@
 
 }
 
-body{
+body {
     background-color: var(--color1-background);
 }
 
@@ -44,7 +44,7 @@ p{
     font-family: 'Roboto', 'Arial';
 } */
 
-.back-home .btn-back{
+.back-home .btn-back {
     display: flex;
     align-items: center;
     width: 180px;
@@ -58,21 +58,21 @@ p{
     margin: 15px 0px 0px 20px;
 }
 
-.back-home .btn-back:hover{
+.back-home .btn-back:hover {
     background-color: #ececec;
 }
 
-.btn-back img{
+.btn-back img {
     width: 20px;
 }
 
-.btn-back p{
+.btn-back p {
     font-size: 0.9rem;
     margin-left: 10px;
 }
 
 /* Main */
-.main{
+.main {
     margin: auto;
     width: 1100px;
     display: flex;
@@ -82,7 +82,7 @@ p{
 }
 
 /* Alteração na cor localizada embaixo da primeira informação do texto */
-.cadastroesquerdo{
+.cadastroesquerdo {
     color: #737380;
 }
 
@@ -90,12 +90,12 @@ p{
     width: 370px;
 }
 
-.main .logo img{
+.main .logo img {
     width: 90%;
 }
 
 /* Left e Right */
-.main .left, .main .right{
+.main .left, .main .right {
     display: flex;
     width: 420px;
     flex-direction: column;
@@ -104,19 +104,19 @@ p{
     height: 450px;
 }
 
-.main .right .img{
+.main .right .img {
     display: flex;
     width: 500px;
     margin-top: 40px;
     margin-right: 50px;
 }
 
-.main .right .img img{
+.main .right .img img {
     width: 100%;
 }
 
 /* Title */
-.main .left h3{
+.main .left h3 {
     color: #021b2b;
     font-size: 1.5rem;
     margin-top: 14px;
@@ -126,17 +126,17 @@ p{
 
 /* Form */
 
-.left .form{
+.left .form {
     width: 380px;
     margin-top: 20px;
 }
 
-.left .form form{
+.left .form form {
     display: flex;
     flex-direction: column;
 }
 
-.left .form form label{
+.left .form form label {
     margin-top: 14px;
     color: var(--color6-tit-sec);
     font-size: 0.9rem;
@@ -145,7 +145,7 @@ p{
 }
 
 
-.left .form form input{
+.left .form form input {
     width: 280px;
     height: 50px;
     padding: 0px 10px 0px 10px;
@@ -157,35 +157,35 @@ p{
     margin-bottom: 5px;
 }
 
-.left .form form input:focus{
+.left .form form input:focus {
     border: 1px solid #ff08429f;
     transition: .5s;
 }
 
 /* Button */
-.left .form form .btn-enviar{
+.left .form form .btn-enviar {
     cursor: pointer;
     background-color: #FF0841;
     color: #fff;
     width: 300px;
 }
 
-.left .form form .btn-enviar:hover{
+.left .form form .btn-enviar:hover {
     background-color: #d40938;
 }
 
-.left .form form .btn-cadastrar{
+.left .form form .btn-cadastrar {
     cursor: pointer;
     background-color: #FF0841;
     color: #fff;
     width: 320px;
 }
 
-.left .form form .btn-cadastrar:hover{
+.left .form form .btn-cadastrar:hover {
     background-color: #d40938;
 }
 
-.left .form form .link-senha{
+.left .form form .link-senha {
     margin-top: 10px;
     text-decoration: none;
     color: #141414;
@@ -195,7 +195,7 @@ p{
 
 /* Cadastro.html - Cadastro das informações do usuário */
 
-.cadastro-left{
+.cadastro-left {
     display: flex;
     width: 420px;
     flex-direction: column;
@@ -204,16 +204,16 @@ p{
     height: 0px;
 }
 
-.right .formcadastro{
+.right .formcadastro {
     width: 400px;
 }
 
-.right .formcadastro form{
+.right .formcadastro form {
     display: flex;
     flex-direction: column;
 }
 
-.right .formcadastro form input{
+.right .formcadastro form input {
     width: 300px;
     height: 55px;
     padding: 0px 10px 0px 10px;
@@ -225,46 +225,46 @@ p{
     margin-top: 8px;
 }
 
-.right .formcadastro form input:focus{
+.right .formcadastro form input:focus {
     border: 1px solid #ff08429f;
     transition: .5s;
 }
 
 /* Button */
-.right .formcadastro form .btn-enviar{
+.right .formcadastro form .btn-enviar {
     cursor: pointer;
     background-color: #FF0841;
     color: #fff;
     width: 320px;
 }
 
-.right .formcadastro form .btn-enviar:hover{
+.right .formcadastro form .btn-enviar:hover {
     background-color: #d40938;
 }
 
-.right .formcadastro form .btn-cadastrar{
+.right .formcadastro form .btn-cadastrar {
     cursor: pointer;
     background-color: #FF0841;
     color: #fff;
     width: 320px;
 }
 
-.right .formcadastro form .btn-cadastrar:hover{
+.right .formcadastro form .btn-cadastrar:hover {
     background-color: #d40938;
 }
 
 /* cadastronovocaso.html - Cadastro das informações do caso especificado pela ONG */
 
-.right .novocaso{
+.right .novocaso {
     width: 400px;
 }
 
-.right .novocaso form{
+.right .novocaso form {
     display: flex;
     flex-direction: column;
 }
 
-.right .novocaso form input{
+.right .novocaso form input {
     width: 300px;
     height: 55px;
     padding: 0px 10px 0px 10px;
@@ -276,29 +276,29 @@ p{
     margin-top: 8px;
 }
 
-.right .novocaso form input:focus{
+.right .novocaso form input:focus {
     border: 1px solid #ff08429f;
     transition: .5s;
 }
 
 /* Mudança no botão de cadastrar novo caso */
 
-.right .novocaso form .btn-cadastrarnovo{
+.right .novocaso form .btn-cadastrarnovo {
     cursor: pointer;
     background-color: #FF0841;
     color: #fff;
     width: 220px;
 }
 
-.btn-cadastrarnovo{
+.btn-cadastrarnovo {
     display: inline-block;
 }
 
-.right .novocaso form .btn-cadastrar:hover{
+.right .novocaso form .btn-cadastrar:hover {
     background-color: #d40938;
 }
 
-.btn-cancelarnovo{
+.btn-cancelarnovo {
     display: inline-block;
 }
 
@@ -308,23 +308,23 @@ p{
 
 /* Link */
 
-.link{
+.link {
     display: flex;
     margin-top: 3rem;
 }
 
-.link a{
+.link a {
     text-decoration: none;
 }
 
-.link p{
+.link p {
     margin-left: 10px;
     color: #021b2b;
     font-weight: 450;
     font-size: 0.9rem;
 }
 
-.link p:hover{
+.link p:hover {
     font-weight: bold;
     transition: .2s;
 }
@@ -332,14 +332,14 @@ p{
 /* Lista Casos */
 
 /* Main */
-.container-main{
+.container-main {
     margin: auto;
     width: 1100px;
     justify-content: space-around;
     height: 100vh;
 }
 
-.header{
+.header {
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
@@ -347,13 +347,13 @@ p{
 
 }
 
-.header .right-header{
+.header .right-header {
     display: inline-flex;
     align-items: flex-start;
     gap: 20px;
 }
 
-.header .right-header .button-cadastro{
+.header .right-header .button-cadastro {
     height: 50px;
     padding: 0 2rem;
     background-color: #FF0841;
@@ -362,7 +362,7 @@ p{
     color: white;
 }
 
-.header .right-header .button-logout{
+.header .right-header .button-logout {
     height: 50px;
     width: 50px;
     display: flex;
@@ -376,33 +376,33 @@ p{
 
 /* Título */
 
-.titulo{
+.titulo {
     display: flex;
     justify-content: center;
 }
 
-.titulo span{
+.titulo span {
     font-size: 1.3rem;
 }
 
 /* Cards */
 
-.container-main .cards h1{
+.container-main .cards h1 {
     font-weight: 600;
     font-size: 2rem;
     padding: 2rem 0;
 }
 
-.container-main .cards .cards-container{
+.container-main .cards .cards-container {
     display: grid;
     grid-template-columns: 1fr 50%;
     gap: 2rem;
     padding-bottom: 3rem;
 }
 
-.container-main .cards .cards-container .card{
+.container-main .cards .cards-container .card {
     position: relative;
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 2rem;
     background-color: white;
@@ -410,7 +410,7 @@ p{
     border-radius: 10px;
 }
 
-.cards-container .card .lixeira{
+.cards-container .card .lixeira {
     position: absolute;
     top: 2rem;
     right: 2rem;
@@ -418,21 +418,53 @@ p{
     height: 1.5rem;
 }
 
-.cards-container .card .topico-card{
+.cards-container .card .topico-card {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.cards-container .card .topico-card span{
+.cards-container .card .topico-card span {
     font-size: 0.9rem;
     font-weight: 700;
     text-transform: capitalize;
 }
 
-.cards-container .card .topico-card p{
+.cards-container .card .topico-card p {
     font-size: 1rem;
-    color:var(--color5-txt);
+    color: var(--color5-txt);
 }
 
 
+
+.acessibilidade {
+    display: flex;
+    background-color: #fafafa;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    height: 30px;
+    align-items: center;
+}
+
+.acessibilidade .links_access, .acessibilidade .atalhos {
+    list-style: none;
+}
+
+.links_access, .atalhos{
+    display: flex; 
+}
+
+.links_access li{
+    margin-left: 20px;
+}
+
+.links_access li a{
+    text-decoration: none;
+    color: var(--color5-txt);
+    font-size: 0.9rem;
+}
+
+.links_access li a:hover{
+    color: #141414;
+    transition: .3s;
+}
