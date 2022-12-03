@@ -5,16 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Linkando CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script type="text/javascript" src="js/fonte.js"></script>
     <title>Bem Vindo ao Seja Herói</title>
 
-
-</head>
-<body>
-
-    <div class="Acessibilidade">
+    <!-- <div class="Acessibilidade">
         <div class="container">
           <nav>
             <ul>
@@ -28,23 +25,24 @@
               </li>
             </ul>
           </nav>
-        </div>
-
+        </div> -->
+        <script type="text/javascript" src="js/contraste.js"></script>
+</head>
+<body>
     <header>
-            <!-- Header -->
-            <nav class="nav-header">
-                <div class="logo">
-                    <img src="img/logo.svg" height="70px" alt="Logo da plataforma web Seja Herói">
+        <nav class="nav-header">
+            <div class="logo">
+                <img src="img/logo.svg" height="70px" alt="Logo da plataforma web Seja Herói">
+            </div>
+            <div class="buttons-container-nav">
+                <div class="search-input" data-massage="Digite aqui para buscar uma iniciativa">
+                    <input type="text" placeholder="Buscar uma Iniciativa">
+                    <img src="img/search.svg" alt="">
                 </div>
-                <div class="buttons-container-nav">
-                    <div class="search-input" data-massage="Digite aqui para buscar uma iniciativa">
-                        <input type="text" placeholder="Buscar sua Iniciativa">
-                        <img src="img/search.svg" alt="">
-                    </div>
-                    <button class="login-btn">Entrar como ONG</button>
-                </div>
-            </nav>
-        </div>
+                <button class="login-btn">Entrar como ONG</button>
+            </div>
+            </div>
+        </nav>
     </header>
     <!-- BANNER -->
     <section class="banner">
@@ -69,7 +67,7 @@
                         <h3>APAE Brasil</h3>
                         <p>Federação Nacional das Apaes</p>
                     </div>
-                    <button>Conhecer</button>
+                    <a href="perfil_user.html"><button>Conhecer</button></a>
                 </div>
                 
                 <div class="ong-card">
