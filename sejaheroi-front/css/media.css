@@ -1,4 +1,4 @@
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
     .ongs-container .cards-container {
         column-gap: 115px;
     }
