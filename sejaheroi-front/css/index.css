@@ -66,12 +66,13 @@ header .nav-header .buttons-container-nav{
 
 .buttons-container-nav .login-btn{
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 8px;
     border: none;
     background-color: var(--color8-seja-heroi);
     color: #fff;
     margin-left: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .buttons-container-nav .login-btn:hover{
